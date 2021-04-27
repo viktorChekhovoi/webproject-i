@@ -9,6 +9,46 @@ h1.header {
     color: yellow;
 }
 
+.links 
+{
+	font-size: 20px;
+	width: 50%;
+}
+
+.active {
+    	color: white;
+    	background-color: #6699cc;
+}
+
+nav li {
+    	float: left;
+	background-color: white;
+}
+
+.bts-logo {
+	position:absolute;
+	bottom: 17vw;
+	right: 30vw;
+}
+
+.logo {
+	position: absolute;
+	left:0px;
+	top: 0px;
+	z-index:2;
+}
+
+.summary {
+	font-size: 30px;
+	padding-top: -4em;
+	margin-top: -1vw;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	text-align: center;
+	position: relative;
+	top: 30%;
+}
+
 div.centered {
 	position: fixed;
 	top: 50%;
@@ -39,6 +79,15 @@ div.checkboxes{
 
 #download{
 	text-align:left;
+}
+
+.footer-text {
+	background-color: #6699cc;
+	position: fixed;
+	float: left;
+	width: 100%;
+	left: 0;
+	bottom: 0;
 }
 
 input.yearSelector {width: 2.5em;}
