@@ -1,9 +1,10 @@
 body {
-	background-image: url("asphalt.jpeg");
+	background-image: url("background images/asphalt.jpeg");
 	background-size: 100%;
+	/*background-color: #CCC9C0;*/
 }
 
-h1, h2, h3, p, label {
+h1, h2, h3, p, label, a {
 	color: white;
 }
 
