@@ -1,30 +1,8 @@
-body {
-	background-image: url("background images/asphalt.jpeg");
-	background-size: 100%;
-	/*background-color: #CCC9C0;*/
-}
 
-h1, h2, h3, p, label, a {
-	color: white;
+body{
+	margin:150;
+	padding:0;
 }
-
-h1 {
-    text-align: center;
-}
-
-h1.header {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    background-color: blue;
-    color: yellow;
-}
-
-.links 
-{
-	font-size: 20px;
-	width: 50%;
-}
-
 
 .header {
 	padding-top: 1em;
@@ -40,24 +18,45 @@ h1.header {
 	width: 100%;
 }
 
-.data-files-info
+.links 
 {
-	margin-bottom: 5vw;
+	font-size: 20px;
 }
 
-nav li a {
-    	display: block;
-    	color: #6699cc;
-    	text-decoration: none;
-    	text-align: center;
-    	padding: 14px 85px;
-	border: 2px solid #6699cc;
-	white-space: nowrap;
+h2 {
+	margin-top: -.25em;
+	font-size: 45px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif; 
 }
 
-.active {
-    	color: white;
-    	background-color: #6699cc;
+h3 {
+   	font-family: Verdana, Geneva, sans-serif; 
+	font-size: 35px;
+}
+
+.summary {
+	font-size: 30px;
+	padding-top: -4em;
+	margin-top: -1vw;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	text-align: center;
+	position: relative;
+	top: 30%;
+}
+
+.links {
+	width: 50%;
+}
+
+p {
+    	font-family: Times New Roman;
+    	line-height: 1.4;
+}
+	
+.links-header {
+	margin-left: 18vw;
 }
 
 .nav {
@@ -75,22 +74,6 @@ nav li a:hover {
     	background-color: #6699cc;
 }
 
-
-nav li {
-    	float: left;
-	background-color: white;
-}
-
-.bts-logo {
-	position:absolute;
-	bottom: 18vw;
-	right: 30vw;
-}
-
-.links-header {
-	margin-left: 18vw;
-}
-
 .logo {
 	position: absolute;
 	left:0px;
@@ -98,48 +81,73 @@ nav li {
 	z-index:2;
 }
 
-.summary {
-	font-size: 30px;
-	padding-top: -4em;
-	margin-top: -1vw;
-	margin-left: 2vw;
-	margin-right: 2vw;
-	text-align: center;
-	position: relative;
-	top: 30%;
+.active {
+    	color: white;
+    	background-color: #6699cc;
 }
 
-div.centered {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+links-list li{
+	padding: 10px;
+}
 
-	list-style: none;
-    margin: 0;
-    padding: 0;
-    white-space: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
+nav li {
+    	float: left;
+	background-color: white;
+}
+.bts-logo {
+	position:absolute;
+	bottom: 17vw;
+	right: 30vw;
+}
+
+nav li a {
+    	display: block;
+    	color: #6699cc;
+    	text-decoration: none;
+    	text-align: center;
+    	padding: 14px 85px;
+	border: 2px solid #6699cc;
+	white-space: nowrap;
+}
+
+img {
+	margin: 12px;
+	width: 44.1vw;
+	height: auto;
+	border-radius: 15px;
+	border: 2px solid black;
+}
+
+.img-with-text {
+	width: 35%;
+	background-color: red;
+	float: right;
+    	text-align: center;
+}
+.matterText {
+	margin-top: 100px;
 }
 
 
-.wrapper{
-	text-align: center;
-}
-
-#caption{
-	position: relative;
-	text-align:center;
-}
-
-div.checkboxes{
+.whyDoesItMatter {
 	text-align: left;
+	padding: 0%;
+	margin: 2.3vw;
+	height: 28vw;
+}
+.safer1 {
+	width: 45%;
+	margin: 2.3%;
+	float: left;
+}
+.safer2 {
+	border-radius: 25px;
+	border: 2px solid black;
+	width: 45%;
+	margin: 2.3%;
+	float: left;
 }
 
-#download{
-	text-align:left;
-}
 
 .footer-text {
 	background-color: #6699cc;
@@ -149,7 +157,3 @@ div.checkboxes{
 	left: 0;
 	bottom: 0;
 }
-
-input.yearSelector {width: 2.5em;}
-
-div.centered > div, h2, input, label {display: inline-block;}
