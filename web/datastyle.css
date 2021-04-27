@@ -23,6 +23,24 @@ div.centered {
     overflow-y: hidden;
 }
 
+
+.wrapper{
+	text-align: center;
+}
+
+#caption{
+	position: relative;
+	text-align:center;
+}
+
+div.checkboxes{
+	text-align: left;
+}
+
+#download{
+	text-align:left;
+}
+
 input.yearSelector {width: 2.5em;}
 
 div.centered > div, h2, input, label {display: inline-block;}

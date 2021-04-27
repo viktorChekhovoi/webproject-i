@@ -12,5 +12,50 @@
 </head>
 <body>
 	<h1 class="header">Traffic fatalities database (Placeholder)</h1>
+	
+	
+	
+	<div class="wrapper">
+	
+		<img src="output.png">
+	
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="centered" id="caption">
+	    <h2>Options: I want to see</h2>
+	    <div class="checkboxes">
+	    	<input type="checkbox" id="vehicle1" name="vehicle1" value="Passenger car" checked>
+			<label for="vehicle1"> <strong>Passenger car</strong></label><br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="Truck" checked>
+			<label for="vehicle2"> <strong>Truck</strong></label><br>
+			<input type="checkbox" id="vehicle3" name="vehicle3" value="Motorcycle" checked>
+			<label for="vehicle3"> <strong>Motorcycle</strong></label><br>
+			<input type="checkbox" id="vehicle4" name="vehicle4" value="Bus" checked>
+			<label for="vehicle4"> <strong>Bus</strong></label><!--br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="All">
+			<label for="vehicle2"> All</label-->
+	    </div>
+		<div class="checkboxes">
+			<input type="radio" id="total" value="Total Fatalities">
+			<label for="total"><strong>Total Fatalities</strong></label><br>
+			<input type="radio" id="permile" value="Per Billion Miles Traveled">
+			<label for="total"><strong>Fatalities per Billion Miles</strong></label><br>
+		</div>
+		<h2>between</h2>
+		<label for="Starting Year"></label>
+  		<input type="text" name="start" class="yearSelector">
+  		<h2>and</h2>
+  		<label for="Ending Year"></label>
+  		<input type="text" name="end" class="yearSelector">
+  		<a href="results.html">
+  			<input type="submit" name="go">
+  		</a>
+	<p id="download"><a href="../final_dataset.csv">Download data (.csv)</a></p>
+	</div>
+	
+
 </body>
 </html>
