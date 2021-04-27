@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+h1.header {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    background-color: blue;
+    color: yellow;
+}
+
+div.centered {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+input.yearSelector {width: 2.5em;}
+
+div.centered > div, h2, input, label {display: inline-block;}

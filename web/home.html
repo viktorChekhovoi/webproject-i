@@ -1,14 +1,41 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title>Automotive Accident Analysis</title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2022.3">
-  <style type="text/css">
-  </style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>Automotive Accident Analysis</title>
+	<link rel="stylesheet" href="datastyle.css">
+	<meta name="Generator" content="Cocoa HTML Writer">
+	<meta name="CocoaVersion" content="2022.3">
+	<style type="text/css">
+	</style>
 </head>
 <body>
+	<h1 class="header">Traffic fatalities database (Placeholder)</h1>
+	<h1>Welcome to the traffic fatalities database. Search below, or learn more about the data <a href="about.html">here</a>.</h1>
+	<div class="centered">
+	    <h2>I want to learn about</h2>
+	    <div class="checkboxes">
+	    	<input type="checkbox" id="vehicle1" name="vehicle1" value="Passenger car" checked>
+			<label for="vehicle1"> <strong>Passenger car</strong></label><br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="Truck" checked>
+			<label for="vehicle2"> <strong>Truck</strong></label><br>
+			<input type="checkbox" id="vehicle3" name="vehicle3" value="Motorcycle" checked>
+			<label for="vehicle3"> <strong>Motorcycle</strong></label><br>
+			<input type="checkbox" id="vehicle1" name="vehicle1" value="Bus" checked>
+			<label for="vehicle1"> <strong>Bus</strong></label><!--br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="All">
+			<label for="vehicle2"> All</label-->
+	    </div>
+		<h2>fatality rates between</h2>
+		<label for="Starting Year"></label>
+  		<input type="text" name="start" class="yearSelector">
+  		<h2>and</h2>
+  		<label for="Ending Year"></label>
+  		<input type="text" name="end" class="yearSelector">
+  		<a href="results.html">
+  			<input type="submit" name="go">
+  		</a>
+	</div>
 </body>
 </html>
