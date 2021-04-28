@@ -1,3 +1,13 @@
+body {
+	background-image: url("background images/asphalt.jpeg");
+	background-size: 100%;
+	/*background-color: #CCC9C0;*/
+}
+
+h1, h2, h3, p, label, a {
+	color: white;
+}
+
 h1 {
     text-align: center;
 }
